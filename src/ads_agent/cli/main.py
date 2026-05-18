@@ -7,7 +7,7 @@ from ads_agent.cli.port_meta_to_tiktok import run_port_meta_to_tiktok
 
 
 def _parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="glitch-executor")
+    parser = argparse.ArgumentParser(prog="example-tenant")
     sub = parser.add_subparsers(dest="command", required=True)
 
     port = sub.add_parser(

@@ -302,7 +302,7 @@ async def api_tiktok_consent_url(request: Request) -> dict:
     Gated by the same AGENT_RUN_TOKEN bearer as /agent/run (admin-only).
     Query params:
       account_ref — logical key for who this authorization is for
-                    (e.g. "urban" or "glitch-executor"). Required.
+                    (e.g. "urban" or "example-tenant"). Required.
       notes       — optional free-text label for the pending state row.
     """
     expected = settings().agent_run_token
@@ -386,7 +386,7 @@ async def api_canva_consent_url(request: Request) -> dict:
     Gated by AGENT_RUN_TOKEN bearer (admin-only).
     Query params:
       account_ref — logical key for who this authorization is for
-                    (e.g. "urban" or "glitch-executor"). Required.
+                    (e.g. "urban" or "example-tenant"). Required.
       notes       — optional free-text label for the pending state row.
     """
     expected = settings().agent_run_token

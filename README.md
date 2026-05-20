@@ -86,4 +86,4 @@ Both stay in sync. Issues + PRs welcome on either side.
 
 ---
 
-Built by [Glitch Executor Labs](https://glitchexecutor.com).
+Built by [Mesh Pilot](https://meshpilot.app).

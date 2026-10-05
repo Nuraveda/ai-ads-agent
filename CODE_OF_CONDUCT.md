@@ -10,4 +10,4 @@ This project follows simple norms:
 
 Maintainers may close issues or PRs that violate these norms. Repeated violations may result in a block.
 
-For private concerns (including reports of behaviour you don't want in a public issue), email `support@meshpilot.app`.
+For private concerns (including reports of behaviour you don't want in a public issue), email `help.nuraveda@gmail.com`.
